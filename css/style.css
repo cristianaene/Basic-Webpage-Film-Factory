@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+/* Header styling*/
+header {
+  height: 20em;
+  background-image: url("../img/banner.png");
+  background-position: left center;
+  border-bottom: 0.3em solid #581303;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 0 0 0.8em #ffffff;
+  padding: 0 1em 0 1em;
+  color: black;
+}
+
+/* Navbar styling*/
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  background-color: #CFA338;
+  padding: 0.7em;
+  font-family: 'Fjalla One', sans-serif;
+  border-bottom: 0.2em solid #581303;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  font-weight: bolder;
+  color: #1a0804;
+}
+
+/* Header styling*/
+footer {
+  background-color: #874A05;
+  height: 5em;
+  border-top: 0.2em solid #581303;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5em;
+  text-shadow: 0 0 0.8em #ffffff;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
