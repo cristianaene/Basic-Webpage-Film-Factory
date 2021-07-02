@@ -48,6 +48,39 @@ ul li a:hover {
   color: #1a0804;
 }
 
+.card {
+  min-height: 98%;
+}
+
+/*
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    min-height: 90%;
+}
+
+*/
+.pandbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em;
+}
+
+.pandbtn p {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5em;
+}
+
+.pandbtn .btnsort {
+  padding: 1em;
+}
+
 /* Header styling*/
 footer {
   background-color: #874A05;
@@ -62,6 +95,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 3em;
 }
 
 footer p {
