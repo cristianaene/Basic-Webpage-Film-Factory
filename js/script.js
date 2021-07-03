@@ -1,4 +1,7 @@
-let movieList = JSON.parse(data);
+/** 
+ * creates Bootstrap cards for each movie and inserts them in HTML
+ * @movies: array of movie objects
+*/
 function addMovies(movies) {
     for (let i = 0; i < movies.length; i++) {
         let movieCard = `
@@ -29,20 +32,23 @@ function addMovies(movies) {
         `;
         document.getElementById("moviecontainer").innerHTML += movieCard;
     }
+
     addNewLikes();
 }
-addMovies(movieList);
 
-// defining function to increment the number of likes
+/** 
+ * increments number of likes when like button is clicked
+*/
 function incrementLikes() {
     //console.log(this);
     document.getElementsByClassName("likevalue")[this.name].innerHTML = parseInt(document.getElementsByClassName("likevalue")[this.name].innerHTML) +1 ;
     // updating the js variable containing the movie list with the new value of likes
     movieList[this.name].likesNo++;
-   
 }
 
-// add event listener to all like buttons and include them in a function to recalculate likes after sorting
+/** 
+ * adds event listener to all like buttons
+*/
 function addNewLikes () {
     let likeButtons = document.getElementsByClassName("likebtn");
     for (let i = 0; i <likeButtons.length; i++) {
@@ -50,15 +56,24 @@ function addNewLikes () {
     }
 }
 
-// sort films by number of likes
+/** 
+ * sorts films by number of likes
+*/ 
 function sortLikes () {
     movieList.sort((a, b) => {
         return b.likesNo - a.likesNo;
     });
 
-    // empty html movielist container
+    // empties HTML movielist container and adds them back to movie list
     document.getElementById("moviecontainer").innerHTML = "";
     addMovies(movieList);
 }
+
+// links like button to sort function
 document.getElementById("likesort").addEventListener("click", sortLikes);
 
+// parses JSON string into JS array of objects
+let movieList = JSON.parse(data);
+
+// adds initial movie list to HTML (according to JSON data)
+addMovies(movieList);

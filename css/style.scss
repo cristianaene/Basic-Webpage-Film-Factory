@@ -11,10 +11,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
     h1 {
         font-family: 'Fjalla One', sans-serif;
         text-shadow: 0 0 0.8em #ffffff;
-        //line-height: 8em;
         padding: 0 1em 0 1em;
         color: black;
     }
@@ -28,10 +28,13 @@ ul {
     padding: 0.7em;
     font-family: 'Fjalla One', sans-serif;
     border-bottom: 0.2em solid #581303;
+
     li {
+
         a {
             text-decoration: none;
             color: black;
+
             &:hover {
                 font-weight: bolder;
                 color: #1a0804;
@@ -49,7 +52,7 @@ ul {
         min-height: 2.3em;
     }
     .card-text {
-        min-height: 8em;
+        min-height: 9em;
     }
 
 }
@@ -61,6 +64,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin: 2em;
+    
     p {
         font-family: 'Fjalla One', sans-serif;
         font-size: 1.5em;
@@ -80,6 +84,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 3em;
+
     p {
         font-family: 'Fjalla One', sans-serif;
         font-size: 1.5em;
@@ -91,6 +96,7 @@ footer {
 // hiding header text on tablets and smartphones
 @media screen and (max-width: 992px){
     header {
+
         h1 {
             display: none;
         }
