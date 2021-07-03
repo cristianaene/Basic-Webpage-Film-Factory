@@ -31,25 +31,25 @@ let data = `[
     },
     {
         "title": "Cat on a Hot Tin Roof",
-        "summary": "Cat on a Hot Tin Roof is a 1958 American drama film directed by Richard Brooks. It is based on the play by Tennessee Williams",
+        "summary": "Cat on a Hot Tin Roof is a 1958 American drama film directed by Richard Brooks. Based on Tennessee Williams's play",
         "img": "img/cat_on_a_hot_tin_roof.jpg",
         "likesNo": 30
     },
     {
         "title": "Citizen Kane",
-        "summary": "Citizen Kane is a 1941 American drama film produced and directed by Orson Welles, who also co-wrote the screenplay with Herman J. Mankiewicz",
+        "summary": "Citizen Kane is a 1941 American drama film produced and directed by Orson Welles, who also co-wrote the screenplay",
         "img": "img/citizen_kane.jpg",
         "likesNo": 41
     },
     {
         "title": "Rear Window",
-        "summary": "Rear Window is a 1954 American mystery thriller film directed by Alfred Hitchcock and written by John Michael Hayes based on Cornel short story",
+        "summary": "Rear Window is a 1954 American mystery thriller film directed by Alfred Hitchcock and written by John Michael Hayes",
         "img": "img/rear_window.jpg",
         "likesNo": 25
     },
     {
         "title": "North by Northwest",
-        "summary": "North by Northwest is a 1959 American spy thriller film produced and directed by Alfred Hitchcock, starring Cary Grant, Eva Marie Saint, and James Mason",
+        "summary": "North by Northwest is a 1959 American spy thriller film produced and directed by Alfred Hitchcock, starring Cary Grant",
         "img": "img/north_by_northwest.jpg",
         "likesNo": 55
     },

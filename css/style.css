@@ -49,19 +49,17 @@ ul li a:hover {
 }
 
 .card {
-  min-height: 98%;
+  min-height: 95%;
 }
 
-/*
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 90%;
-    min-height: 90%;
+.card .card-title {
+  min-height: 2.3em;
 }
 
-*/
+.card .card-text {
+  min-height: 8em;
+}
+
 .pandbtn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +73,7 @@ ul li a:hover {
 .pandbtn p {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1.5em;
+  border-bottom: 0.1em solid black;
 }
 
 .pandbtn .btnsort {
@@ -83,7 +82,7 @@ ul li a:hover {
 
 /* Header styling*/
 footer {
-  background-color: #874A05;
+  background-color: #CFA338;
   height: 5em;
   border-top: 0.2em solid #581303;
   display: -webkit-box;
@@ -103,5 +102,11 @@ footer p {
   font-size: 1.5em;
   text-shadow: 0 0 0.8em #ffffff;
   color: black;
+}
+
+@media screen and (max-width: 992px) {
+  header h1 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
